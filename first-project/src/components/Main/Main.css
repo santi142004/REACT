@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: #1f242d;
+}
+.text{
+    color: white;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+}
+span{
+    color: #08b9c8;
+}
+.photo {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+} 
+
+.icons {
+    display:flex;
+    justify-content: flex-start;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    overflow: hidden; 
+  }
+  
+  .icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+
+
