@@ -4,10 +4,6 @@
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    width: 97.3vw;
-    padding: 1rem;
     background-color: gray;
 }
 
@@ -15,6 +11,7 @@ h1{
     color: white;
     width: 20%;
     margin-left: 5rem;
+    font-size: 30px;
 }
 
 nav{

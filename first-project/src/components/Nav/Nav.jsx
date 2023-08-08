@@ -1,11 +1,12 @@
 import React from 'react'
 import List from '../List/List'
 
+
 export const Nav = () => {
     return (
         <nav>
             <ul>
-                <List name="Home" />
+                <List name="Home" path={'/'}/>
                 <List name="About" />
                 <List name="Services" />
                 <List name="Portafolio" />

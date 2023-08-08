@@ -1,8 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-export const List = ({name}) => {
+export const List = ({name, path}) => {
     return (
-        <li><a href=""> {name}</a></li>
+        <li><NavLink to={path}>{name}</NavLink></li>
+    
     )
 }
 

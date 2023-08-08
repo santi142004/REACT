@@ -7,11 +7,11 @@ const facebook= 'https://cdn-icons-png.flaticon.com/512/20/20673.png'
 export const Main = () => {
     return (
         <Section>
-        <section className='texts'>
+        <section className=' texts flex justify-around items-center '>
                 <div className='text'>
-                    <h3>Hello, it´s Me</h3>
-                    <h2>Michael Andres Diaz</h2>
-                    <h3>And I´m a <span>FrontEnd |</span></h3> <br />
+                    <h3 className='text-4xl'>Hello, it´s Me</h3>
+                    <h2 className='text-5xl'>Michael Andres Diaz</h2>
+                    <h3 className='text-4xl'>And I´m a <span>FrontEnd |</span></h3> <br />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore rerum, voluptatem  commodi autem <br /> cum labore?  Natus excepturi laborum aspernatur nesciunt. Alias odio dolorum      provident ipsa ad ab distin</p>
                 <div className="icons">
                     <img src={facebook} alt="" />
