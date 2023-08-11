@@ -2,8 +2,9 @@ import { Routes, Route } from 'react-router'
 import './App.css'
 import Header from './components/Header/Header'
 import { Main } from './components/Main/Main'
-import { Product } from './components/pages/Product/Product'
+import {AboutMe} from './components/pages/AboutMe/AboutMe'
 import { NotFound } from './components/NotFound/NotFound'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
@@ -11,9 +12,11 @@ function App() {
     <Header />
     <Routes>
       <Route path="/" Component={Main} />
+      <Route path="/about me" Component={AboutMe} />
       <Route path="*" Component={NotFound} />
-      <Route path="/product" Component={Product} />
+
     </Routes> 
+    <Footer />
 
 
     </div>
