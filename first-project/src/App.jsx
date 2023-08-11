@@ -10,11 +10,11 @@ function App() {
     <div>
     <Header />
     <Routes>
-      <Route path="/" Components={Main} />
-      <Route path="*" Components={NotFound} />
-    </Routes>
-    <Main /> 
-    <Product/>
+      <Route path="/" Component={Main} />
+      <Route path="*" Component={NotFound} />
+      <Route path="/product" Component={Product} />
+    </Routes> 
+
 
     </div>
   )

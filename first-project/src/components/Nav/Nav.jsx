@@ -7,7 +7,7 @@ export const Nav = () => {
         <nav>
             <ul>
                 <List name="Home" path={'/'}/>
-                <List name="About" />
+                <List name="Products" path={'/product'} />
                 <List name="Services" />
                 <List name="Portafolio" />
                 <List name="Contact" />
