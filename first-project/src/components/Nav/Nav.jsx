@@ -8,9 +8,7 @@ export const Nav = () => {
             <ul>
                 <List name="Home" path={'/'}/>
                 <List name="About Me" path={'/about me'} />
-                <List name="Services" />
-                <List name="Portafolio" />
-                <List name="Contact" />
+                <List name="Contact us" path={'/contact us'} />
             </ul>
         </nav>
     )

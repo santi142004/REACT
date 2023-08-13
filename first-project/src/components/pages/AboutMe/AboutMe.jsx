@@ -3,7 +3,7 @@ const img= 'https://w0.peakpx.com/wallpaper/850/559/HD-wallpaper-lion-animal-fac
 
 export const AboutMe = () => {
   return (
-    <section className='bg-background w-full h-full'>
+    <section className='bg-fondo bg-no-repeat bg-cover'>
       <p className='flex justify-center text-center pt-3 text-white'>En esta sección podras encontar proyectos en los cuales he trabajado y yo mismo he hecho. <br /> Algunas cosas interesantes sobre mi como mis estudios, mis habilidades, tipos de lenguajes <br /> que manejo, tecnologias que manejo y demas cosas. </p>
       <section className='h-1/2 flex justify-around'>
         <div className='w-80 h-96 bg-slate-600 mt-8 rounded-2xl flex flex-col items-center text-lg text-white '>
@@ -31,7 +31,7 @@ export const AboutMe = () => {
           </div>
         </div>  
       </section>
-      <section className='h-1/2 flex justify-around'> 
+      <section className='h-1/2 flex justify-around pb-6'> 
       <div className='w-80 h-96 bg-slate-600 mt-8  rounded-2xl flex flex-col items-center text-lg text-white '>
           <img className='w-full h-1/2 rounded-t-2xl object-cover' src={img} alt="lion" />
           <h2 className='font-bold bg-slate-800 shadow-lg shadow-zinc-950 py-3 w-full flex justify-center'>Category</h2>

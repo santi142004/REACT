@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../Section/Section'
 import './Main.css'
 
-const img = 'https://p4.wallpaperbetter.com/wallpaper/946/632/921/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg'
+const img ='https://p4.wallpaperbetter.com/wallpaper/946/632/921/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg'
 const facebook= 'https://www.facebook.com/images/fb_icon_325x325.png'
 const twitter= 'https://img.freepik.com/iconos-gratis/gorjeo_318-674515.jpg'
 const instagram= 'https://img.freepik.com/iconos-gratis/instagram_318-183413.jpg'
@@ -11,7 +11,7 @@ const linkedin= 'https://cdn-icons-png.flaticon.com/512/174/174857.png'
 export const Main = () => {
     return (
         <Section>
-        <section className=' texts flex justify-around items-center '>
+        <section className=' texts flex justify-around items-center bg-fondo bg-no-repeat bg-cover '>
                 <div className='text'>
                     <h3 className='text-4xl'>Hello, it´s Me</h3>
                     <h2 className='text-5xl'>Santiago Barrera Lopez</h2>

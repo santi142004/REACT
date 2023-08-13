@@ -9,6 +9,9 @@ export default {
         colors:{
       background: '#1f242d'
     },
+    backgroundImage:{
+      fondo: "url(/public/images/fondo.png)"
+    }
   }
 
   },

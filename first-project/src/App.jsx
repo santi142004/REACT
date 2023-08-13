@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import { Main } from './components/Main/Main'
 import {AboutMe} from './components/pages/AboutMe/AboutMe'
+import { ContactUs } from './components/pages/ContacUs/ContactUs'
 import { NotFound } from './components/NotFound/NotFound'
 import { Footer } from './components/Footer/Footer'
 
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/" Component={Main} />
       <Route path="/about me" Component={AboutMe} />
+      <Route path="/contact us" Component={ContactUs} />
       <Route path="*" Component={NotFound} />
 
     </Routes> 
