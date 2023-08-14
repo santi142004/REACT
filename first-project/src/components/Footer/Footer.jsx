@@ -4,7 +4,7 @@ const git = 'https://pngimg.com/d/github_PNG83.png'
 
 export const Footer = () => {
   return (
-    <footer className='h-20 flex justify-around items-center bg-neutral-500'>
+    <footer className='h-1/6 flex justify-around items-center bg-neutral-500'>
       <div>
         <p className='text-xl'>Hecho en 2023 &copy;/ Santiago Barrera Lopez</p>
         <p>Correo: santiagobarreralopez2004@gmail.com</p>
