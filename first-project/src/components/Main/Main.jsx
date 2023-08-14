@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../Section/Section'
 import './Main.css'
 
-const img ='https://p4.wallpaperbetter.com/wallpaper/946/632/921/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg'
+const img ='../../public/images/yo.jpeg'
 const facebook= 'https://www.facebook.com/images/fb_icon_325x325.png'
 const twitter= 'https://img.freepik.com/iconos-gratis/gorjeo_318-674515.jpg'
 const instagram= 'https://img.freepik.com/iconos-gratis/instagram_318-183413.jpg'
