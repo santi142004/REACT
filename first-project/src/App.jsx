@@ -9,7 +9,7 @@ import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-fondo bg-no-repeat bg-cover'>
     <Header />
     <Routes>
       <Route path="/" Component={Main} />
