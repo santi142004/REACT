@@ -9,9 +9,10 @@ const instagram= 'https://img.freepik.com/iconos-gratis/instagram_318-183413.jpg
 const linkedin= 'https://cdn-icons-png.flaticon.com/512/174/174857.png'
 
 export const Main = () => {
+
     return (
         <Section>
-        <section className=' texts flex justify-around items-center h-4/6 py-4 '>
+        <section className=' texts flex justify-around items-center h-6/6 py-4 '>
                 <div className='text'>
                     <h3 className='text-4xl'>Hello, it´s Me</h3>
                     <h2 className='text-5xl'>Santiago Barrera Lopez</h2>
@@ -24,7 +25,7 @@ export const Main = () => {
                     <img className='bg-fondoColor' src={linkedin} alt="" />
                 </div>
 
-                <div className="button">
+                <div className='button hover:bg-teal-300'>
                     <button>
                     DownLoad CV
                     </button>

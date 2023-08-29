@@ -7,7 +7,9 @@ export default {
   theme: {
     extend:{  
         colors:{
-      fondoColor: '#3de9f2',
+        // #3de9f2
+        //RGBA(255, 255, 255, 0.85)
+      fondoColor: '#ffffffc5',
       background: '#1f242d'
     },
     backgroundImage:{

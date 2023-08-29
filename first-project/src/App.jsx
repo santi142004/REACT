@@ -9,7 +9,9 @@ import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className='bg-fondo bg-no-repeat bg-cover'>
+    // bg-fondo bg-no-repeat bg-cover
+    <div className='relative'>
+      <img className='z-[-2] absolute top-0 left-0 h-screen w-screen brightness-[50%]' src='/public/images/fondo.png' alt="" />
     <Header />
     <Routes>
       <Route path="/" Component={Main} />
