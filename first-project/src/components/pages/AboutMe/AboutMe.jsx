@@ -18,17 +18,18 @@ export const AboutMe = () => {
 
 
   return (
-    <section className='h-4/6  py-5'>
+    <section className='h-4/6  py-5 italic'>
+      <h1 className='titulo text-center w-full mt-4'>Acerca de Mi</h1>
       <p className='flex justify-center text-center pt-3 text-white'>En esta sección podras encontar proyectos en los cuales he trabajado y yo mismo he hecho. <br /> Algunas cosas interesantes sobre mi como mis estudios, mis habilidades, tipos de lenguajes <br /> que manejo, tecnologias que manejo y demas cosas. </p>
       <section className='h-1/2 flex justify-around py-32'>
-        <div className='w-80 h-96 bg-slate-600 mt-8 rounded-2xl flex flex-col items-center text-lg text-white hover:scale-105 '  onClick={openBlue}>
+        <div className='w-80 h-96 bg-slate-600 mt-8 rounded-2xl flex flex-col items-center text-lg text-white hover:scale-105  '  onClick={openBlue}>
           <img className='w-full h-1/2 rounded-t-2xl object-cover' src={blueasy} alt="lion" />
           <h2 className='font-bold bg-slate-800 shadow-lg shadow-zinc-950 py-3 w-full flex justify-center'>BLUEASY</h2>
-          <div className=' w-full h-96  font-medium flex justify-center items-center text-xs px-4'>
-            <p>Blueasy es una página web impresionante construida con HTML y JavaScript, destacando por su diseño en tonos azules que evocan calma y profesionalismo. La página ofrece interacciones dinámicas y un diseño receptivo para una experiencia de usuario fluida. Desplegada en Netlify, garantiza velocidad y accesibilidad global. En resumen, Blueasy fusiona arte, diseño y programación en una experiencia web excepcional.</p>
+          <div className=' w-full h-96  font-medium flex justify-center items-center text-xs px-4 '>
+            <p className=''>Blueasy es una página web impresionante construida con HTML y JavaScript, destacando por su diseño en tonos azules que evocan calma y profesionalismo. La página ofrece interacciones dinámicas y un diseño receptivo para una experiencia de usuario fluida. Desplegada en Netlify, garantiza velocidad y accesibilidad global. En resumen, Blueasy fusiona arte, diseño y programación en una experiencia web excepcional.</p>
           </div>
         </div>
-        <div className='w-80 h-96 bg-slate-600 mt-8 rounded-2xl flex flex-col items-center text-lg text-white hover:scale-105' onClick={openTenor}>
+        <div className='w-80 h-96 bg-slate-600 mt-8 rounded-2xl flex flex-col items-center text-lg text-white hover:scale-105 ' onClick={openTenor}>
           <img className='w-full h-1/2 rounded-t-2xl object-cover' src={tenor} alt="lion" />
           <h2 className='font-bold bg-slate-800 shadow-lg shadow-zinc-950 py-3 w-full flex justify-center'>TENOR</h2>
           <div className=' w-full h-96  font-medium flex justify-center items-center text-xs px-4'>
