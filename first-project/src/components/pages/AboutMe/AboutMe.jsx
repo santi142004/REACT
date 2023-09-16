@@ -18,7 +18,7 @@ export const AboutMe = () => {
 
 
   return (
-    <section className='h-4/6  py-5 italic'>
+    <section className='h-full  py-5 italic'>
       <h1 className='titulo text-center w-full mt-4'>Acerca de Mi</h1>
       <p className='flex justify-center text-center pt-3 text-white'>En esta sección podras encontar proyectos en los cuales he trabajado y yo mismo he hecho. <br /> Algunas cosas interesantes sobre mi como mis estudios, mis habilidades, tipos de lenguajes <br /> que manejo, tecnologias que manejo y demas cosas. </p>
       <section className='h-1/2 flex justify-around py-32'>

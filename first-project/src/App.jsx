@@ -6,17 +6,18 @@ import {AboutMe} from './components/pages/AboutMe/AboutMe'
 import { ContactUs } from './components/pages/ContacUs/ContactUs'
 import { NotFound } from './components/NotFound/NotFound'
 import { Footer } from './components/Footer/Footer'
+import { Store } from './components/pages/Store/Store'
 
 function App() {
   return (
-    // bg-fondo bg-no-repeat bg-cover
-    <div className='relative'>
-      <img className='z-[-2] absolute top-0 left-0 h-screen w-screen brightness-[50%]' src='/public/images/fondo.png' alt="" />
+    
+    <div className='bg-fondo bg-no-repeat bg-cover'>
     <Header />
     <Routes>
       <Route path="/" Component={Main} />
       <Route path="/about me" Component={AboutMe} />
       <Route path="/contact us" Component={ContactUs} />
+      <Route path="store" Component={Store} />
       <Route path="*" Component={NotFound} />
     </Routes> 
     <Footer />

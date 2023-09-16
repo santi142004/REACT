@@ -9,6 +9,7 @@ export const Nav = () => {
                 <List name="Home" path={'/'}/>
                 <List name="About Me" path={'/about me'} />
                 <List name="Contact us" path={'/contact us'} />
+                <List name="Store" path={'/store'} />
             </ul>
         </nav>
     )

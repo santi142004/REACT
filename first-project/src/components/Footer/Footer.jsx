@@ -9,7 +9,7 @@ export const Footer = () => {
 
 
   return (
-    <footer className='h-24  flex justify-around items-center bg-neutral-500 text-sm italic'>
+    <footer className='h-1/6  flex justify-around items-center bg-neutral-500 text-sm italic'>
       <div className='flex flex-col w-7/12'>
         <p>Hecho en 2023 &copy;/ Santiago Barrera Lopez</p>
         <p>Correo: santiagobarreralopez2004@gmail.com</p>
